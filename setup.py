@@ -1,8 +1,8 @@
 from distutils.core import setup
 setup(
-  name = 'pyfb',
-  packages = ['pyfb'], # this must be the same as the name above
-  version = '0.1',
+  name = 'pyfacebook',
+  packages = ['pyfacebook'], # this must be the same as the name above
+  version = '0.2',
   description = 'A facebook library with classes for various facebook stuff',
   author = 'Stefan Nozinic',
   author_email = 'stefan@lugons.org',
