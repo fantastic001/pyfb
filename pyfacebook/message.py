@@ -21,3 +21,6 @@ class Message(object):
 
     def get_time(self):
         return datetime.strptime(self.data["created_time"], "%Y-%m-%dT%H:%M:%S%z")
+
+    def __eq__(self, msg):
+        return self.get_sender() == msg.get_sender() and self.get_time() == msg.get_time() 
