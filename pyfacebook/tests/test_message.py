@@ -21,6 +21,4 @@ class TestStringMethods(unittest.TestCase):
         data1["from"]["name"] = "Parsons" 
         msg1 = Message(data1, self.conversation)
         self.assertTrue(msg == self.msg) 
-        print(msg1.get_sender())
-        print(self.msg.get_sender())
         self.assertFalse(msg1 == self.msg) 
